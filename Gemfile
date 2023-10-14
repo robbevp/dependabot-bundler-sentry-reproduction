@@ -9,3 +9,4 @@ gem 'sentry-ruby', '~> 5.10'
 
 # Add a gem from a git source
 gem 'annotate', github: 'robbevp/annotate_models', branch: 'enhc/support-virtual-columns'
+gem 'mocha', github: 'freerange/mocha'

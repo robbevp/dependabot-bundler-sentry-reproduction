@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/freerange/mocha.git
+  revision: f65a74727497d74787aad8cb3ea0212e76a48acc
+  specs:
+    mocha (2.1.0)
+      ruby2_keywords (>= 0.0.5)
+
+GIT
   remote: https://github.com/robbevp/annotate_models.git
   revision: 099acde2ff0c1b7e64f70c996a77f907ee1121be
   branch: enhc/support-virtual-columns
@@ -113,6 +120,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate!
+  mocha!
   sentry-rails (~> 5.10)
   sentry-ruby (~> 5.10)
 
